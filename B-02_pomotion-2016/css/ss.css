@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -3160,7 +3159,7 @@ ul {
 body {
   background-image: url("../img/html_bg.png");
   position: relative;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
 }
 
 a,
