@@ -1,0 +1,18 @@
+/* Website template by freewebsitetemplates.com */
+
+#body div {
+	margin: 0 auto 20px;
+}
+
+#body div#studio {
+	padding: 80px 0 0;
+}
+
+div.body div div div#photographers ul,
+div.body div div div#gallery ul {
+	padding: 0 0 10px;
+}
+
+div.body div div div div div ul {
+	padding: 0 10px;
+}
