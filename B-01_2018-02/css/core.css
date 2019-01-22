@@ -3856,8 +3856,8 @@ form select:focus {
 /*====================== BackTo Portfolio ======================*/
 .back-portfolio {
   position: fixed;
-  top: 20px;
-  right: 50px;
+  bottom: 20px;
+  right: 20px;
   z-index: 999;
   opacity: 1;
 }

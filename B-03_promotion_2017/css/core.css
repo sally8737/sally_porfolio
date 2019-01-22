@@ -4365,8 +4365,8 @@ footer .copyright p {
 /*====================== BackTo Portfolio ======================*/
 .back-portfolio {
   position: fixed;
-  top: 15px;
-  right: 50px;
+  bottom: 20px;
+  right: 20px;
   z-index: 999;
   opacity: 1;
 }
