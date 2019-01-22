@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sally Portfolio</title>
+  <meta name="keywords" content="portfolio" />
+  <meta name="description" content="website brief" />
+  <meta name="author" content="SallyHsu" />
+  <meta name="copyright" content="copyright @ SallyHsu" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!--
+      修正iPhone手機旋轉後會畫面放大的問題，自動抓手機解析度，設定頁面初始縮放比1
+    -->
+  <!-- 解決手機網頁上的數字會自動變成超連結的情況 -->
+  <meta name="format-detection" content="telephone=no" />
+  <!-- 解決手機網頁上的數字會自動變成超連結的情況 -->
+  <meta name="format-detection" content="address=no" />
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- Header -->
+    <header>
+      <div id="header">
+        <a id="menu-btn" href="javascript:;"><span></span></a>
+        <div id="menu">
+
+          <!-- logo -->
+          <div id="logo">
+            <img src="./img-2/sally_0003-5.jpg" width="75px" height="80px" alt="" />
+            <div class="title">
+              <h1>Sally Hsu</h1>
+              <p>Marketing</p>
+              <p>Website Designer</p>
+            </div>
+          </div>
+
+          <!-- NAV -->
+          <nav id="nav">
+            <ul>
+              <li>
+                <a href="javascript:;" id="top-link" class="active"><span class="icon fa-home">Home</span></a>
+              </li>
+              <li>
+                <a href="javascript:;" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a>
+              </li>
+              <li>
+                <a href="javascript:;" id="featured-link"><span class="icon-code"></span>Featured</a>
+              </li>
+              <li>
+                <a href="javascript:;" id="about-link"><span class="icon fa-user">About me</span></a>
+              </li>
+              <li>
+                <a href="javascript:;" id="contact-link"><span class="icon fa-envelope">Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- social icons -->
+          <!-- <div class="social-icons">
+            <ul>
+              <li>
+                <a href="#" class="icon fa-twitter"><span class="label">twitter</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa-github"><span class="label">Github</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa-envelope"><span class="label">Email</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+
+      <!-- Intro -->
+      <section id="top" class="box one dark cover ">
+        <div class="container">
+          <header>
+            <h2 class="alt">
+              Sally Hsu
+            </h2> 
+            <p>
+              Marketing & Responsive Website Designer
+            </p>
+          </header>
+
+          <footer>
+            <a href="#portfolio" class="button-scrolly"><span></span></a>
+          </footer>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="box two">
+        <div class="container">
+          <header>
+            <h2>Portfolio</h2>
+          </header>
+
+          <div class="works">
+            <input type="radio" name="portfolioCtrl" id="prtfAll" class="panel-control" checked="yes">
+            <input type="radio" name="portfolioCtrl" id="prtfWeb" class="panel-control">
+            <input type="radio" name="portfolioCtrl" id="prtfBanner"class="panel-control">
+            <input type="radio" name="portfolioCtrl" id="prtfPoster"class="panel-control">
+            <input type="radio" name="portfolioCtrl" id="prtfCata"class="panel-control">
+            <!-- <input type="radio" name="portfolioCtrl" id="prtfLogo"class="panel-control"> -->
+            <div class="nav">
+              <label for="prtfAll" class="all">ALL</label>
+              <label for="prtfWeb" class="web">WEB</label>
+              <label for="prtfBanner" class="banner">BANNER</label>
+              <label for="prtfPoster" class="poster">POSTER</label>
+              <label for="prtfCata" class="catalog">CATALOG</label>
+              <!-- <label for="prtfLogo" class="logo">LOGO</label> -->
+            </div>
+
+            <ul class="contentBox">
+                <li class="web">
+                    <img src="./img-3/568-B01.jpg" alt="" />
+                    <div class="build-with">
+                      <p>Promotion Event</p>
+                      <p>
+                          Build with :<br />
+                        Html, Scss, JS/JQ, Photoshop
+                      </p>
+                      <!-- <button class="modal-open" data-modal="modal1">LINK</button> -->
+                      <a class="modal-open" href="B-01_2018-02/index.html">LINK</a>
+                    </div>
+                  </li>
+        
+                  <li class="web">
+                    <img src="./img-3/568-B03.jpg" alt="" />
+                    <div class="build-with">
+                      <p>Promotion Event</p>
+                      <p>Build with :<br />
+                        Html, Scss, Photoshop
+                      </p>
+                      <a class="modal-open" href="../B-03_promotion_2017/index.html">LINK</a>
+                    </div>
+                  </li>
+                  <li class="web">
+                    <img src="./img-3/568-B02.jpg" alt="" />
+                    <div class="build-with">
+                        <p>Promotion Event</p>
+                      <p>
+                        Build with :<br />
+                        Html, Scss, JS/JQ, Photoshop
+                      </p>
+                      <a class="modal-open" href="../B-02_pomotion-2016/index.html">LINK</a>
+                    </div>
+                  </li>
+                  <li class="web">
+                    <img src="./img-3/568-B04.jpg" alt="" />
+                    <div class="build-with">
+                      <p>Promotion Event</p>
+                      <p>
+                       Build with :<br />
+                        Html, Scss, JS/JQ, Photoshop
+                      </p>
+                      <a class="modal-open" href="../B-04_promotion_2015/index.html">LINK</a>
+                    </div>
+                  </li>
+                  <li class="banner">
+                    <img src="./img-3/568-B05.jpg" alt="" />
+                    <div class="build-with">
+                      <p>Banner</p>
+                      <p>
+                        Build with :<br />
+                        Photoshop
+                      </p>
+                      <button class="modal-open" data-modal="modal5">LINK</button>
+                    </div>
+                    <div class="modal" id="modal5">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3>BANNER</h3>
+                          <span class="icon modal-close"></span>
+                        </div>
+                        <div class="modal-body">
+                          <p>Photoshop</p>
+                          <img src="./img-3/B05-prewedding-20161212.gif" alt="" />
+                        </div>
+                        <div class="modal-footer">
+                          <button class="link modal-close">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="banner">
+                    <img src="./img-3/568-B06.jpg" alt="" />
+                    <div class="build-with">
+                        <p>Banner</p>
+                      <p>
+                        Build With :<br />
+                        Photoshop
+                      </p>
+                      <button class="modal-open" data-modal="modal6">LINK</button>
+                    </div>
+                    <div class="modal" id="modal6">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3>BANNER</h3>
+                          <span class="icon modal-close"></span>
+                        </div>
+                        <div class="modal-body">
+                          <p>Photoshop</p>
+                          <img src="./img-3/B06-FB Banner Main0511-JP.jpg" alt="" />
+                        </div>
+                        <div class="modal-footer">
+                          <button class="link modal-close">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li  class="banner">
+                      <img src="./img-3/568-B07.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Banner</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal7">LINK</button>
+                      </div>
+                      <div class="modal" id="modal7">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/D-2014-01-5-1048x458.gif" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li  class="banner">
+                      <img src="./img-3/568-B08-2.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Banner</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal8">LINK</button>
+                      </div>
+                      <div class="modal" id="modal8">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/E-08-20170508-1.gif" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li  class="poster">
+                      <img src="./img-3/568-B10.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Poster</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal10">LINK</button>
+                      </div>
+                      <div class="modal" id="modal10">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/B10-2017-8-Rstrnt-love.jpg" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li  class="catalog">
+                      <img src="./img-3/568-B12.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Catalog</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal12">LINK</button>
+                      </div>
+                      <div class="modal" id="modal12">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/B12-201706-別冊.gif" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li  class="poster">
+                      <img src="./img-3/568-B11.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Poster</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal11">LINK</button>
+                      </div>
+                      <div class="modal" id="modal11">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/B11-DD-90x110-002.gif" width="700px" height="854px" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+
+                    <li  class="banner">
+                      <img src="./img-3/568-B09.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Banner</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal9">LINK</button>
+                      </div>
+                      <div class="modal" id="modal9">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>BANNER</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/B09-switching_power_supply.gif" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li  class="catalog">
+                      <img src="./img-3/568-B13.jpg" alt="" />
+                      <div class="build-with">
+                          <p>Catalog</p>
+                        <p>
+                          Build With :<br />
+                          Photoshop
+                        </p>
+                        <button class="modal-open" data-modal="modal13">LINK</button>
+                      </div>
+                      <div class="modal" id="modal13">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3>CATALOG</h3>
+                            <span class="icon modal-close"></span>
+                          </div>
+                          <div class="modal-body">
+                            <p>Photoshop</p>
+                            <img src="./img-3/B13-catalog.gif" width="850px" height="600px" alt="" />
+                          </div>
+                          <div class="modal-footer">
+                            <button class="link modal-close">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="featured" class="box five">
+        <div class="container">
+          <header>
+            <h2>THIS IS WHAT I DO</h2>
+          </header>
+          <p>
+            <!-- I provide web design, web development, banner advertising and UI/UX Design. -->
+          </p>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <span class="icon fa fa-laptop"></span>
+              <h3>Web Design</h3>
+              <p>Photoshop </p>
+              <p>Illustrator</p>
+              <p>Mobile Web</p>
+              <p>Responsive Web Design</p>
+              <p>Web Style Design</p>
+            </div>
+
+            <div class="skills-content">
+              <span class="icon fa-file-code"></span>
+              <h3>Web Development</h3>
+              <p>HTML</p>
+              <p>SASS / SCSS</p>
+              <p>CSS3</p>
+              <p>JavaScript & jQuery</p>
+              <p class="primary">vue.js</p>
+            </div>
+
+            <div class="skills-content">
+              <span class="icon fa-palette"></span>
+              <h3>Graphic Design</h3>
+              <p>EDM</p>
+              <p>Web Banner</p>
+              <p>Facebook Banner Resize</p>
+              <p>Google Banner Resize</p>
+            </div>
+
+            <div class="skills-content">
+                <span class="icon fa-images"></span>
+                <h3>Banner Advertising</h3>
+              <!-- <p>FLASH Banner</p> -->
+              <p>GIF Banner</p>
+              <p>Google AdWords</p>
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section id="about" class="box three">
+        <div class="container about">
+          <header>
+            <h2 class="about">About me</h2>
+          </header>
+          <!-- <a href="#" class="image featured">
+            <img src="./img-2/sally-6.jpg"  alt="" />
+          </a> -->
+          <p>
+            I have been engaged in marketing and web design for 5 years and I can easily grasp the way aesthetics and various styles are presented. Seeing myself continue to progress, can accept more different challenges, there are continuous learning UX and front-end engineering part, also plans to continue learning framework and other front-end related parts. I hope you can offer me this job opportunity to be a contributive employee of your company. 
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="box four">
+        <div class="container">
+          <header>
+            <h2>Contact</h2>
+          </header>
+
+          <form action="mailto:sally8737@hotmail.com?subject=Website Feedback" method="post" enctype="text/plain" class="center-block">
+            <div class="flex-row">
+              <input type="text" placeholder="Name" class="name" />
+              <input type="email" placeholder="Email" class="email" />
+            </div>
+            <div class="flex-row">
+              <input type="text" name="subject" placeholder="Subject" class="subject" />
+            </div>
+            <div class="flex-row">
+              <textarea placeholder="Message" rows="10" class="message"></textarea>
+            </div>
+            <div class="flex-row">
+              <input type="submit" value="Send Message" class="submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="copyright">
+        <li>&copy; SallyHsu. All rights reserved.</li>
+        <!-- <li>Design:<a href="#">HTML5 UP</a></li> -->
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./assets/js/jquery-3.1.1.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
